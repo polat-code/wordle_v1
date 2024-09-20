@@ -9,4 +9,10 @@ add_executable(wordle_V1 src/main.cpp
         include/word/Word.h
         include/word/WordService.h
         include/game/Game.h
-        include/game/GameService.h)
+        include/game/GameService.h
+        src/game/Game.cpp
+        src/game/GameService.cpp
+        src/user/User.cpp
+        src/user/UserService.cpp
+        src/word/Word.cpp
+        src/word/WordService.cpp)
